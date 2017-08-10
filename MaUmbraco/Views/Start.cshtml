@@ -1,0 +1,8 @@
+﻿@using ContentModels = Umbraco.Web.PublishedContentModels;
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Start>
+
+@{
+	Layout = "Master.cshtml";
+}
+test
+@Model.Content.GetPropertyValue("heading")
